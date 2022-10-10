@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人网站2</title>
+</head>
+<style>
+    body {
+        margin: 0;
+        height: 100vh;
+        background-color: #eee;
+    }
+
+    /* * {
+        border: 1px solid black;
+    }*/
+    .yinying {
+        box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px --1px rab(0 0 0 / 14%) 0PX 1PX 1PX 0PX, rgb(0 0 0 / 12%) 0Px 1px 3px 0px;
+    }
+
+    .flex {
+        display: flex;
+    }
+
+    .baise {
+        background-color: white;
+    }
+
+    .flex1 {
+        flex: 1
+    }
+
+    .column {
+        flex-direction: column;
+    }
+
+    .ma8 {
+        margin: 8px;
+    }
+
+    .mgr8 {
+        margin-right: 8px;
+    }
+
+    .mgt8 {
+        margin-top: 8px;
+    }
+
+    .daohang {
+        padding: 12px 20px;
+        border-bottom: 1px solid rgb(9, 8, 8);
+        font-size: 15px;
+        color: #666
+    }
+    </style>
+    <body class="flex">
+        <!-- 侧边栏 -->
+        <div style="width: 200px; z-index: 2;" class="baise yinying">
+            <!-- 头像栏 -->
+            <div style="padding: 10px;
+             align-items: center;
+             justify-content: center;
+             border-bottom: 1px solid #999; " class="flex">
+                <img src="https://s1.328888.xyz/2022/10/02/MW4g7.jpg" height="170px" width="170px" alt="小兔子图片">
+            </div>
+            <!-- 侧边栏导航栏 -->
+            <div class="fles">
+                <div class="daohang">国庆快乐</div>
+                <div class="daohang">有出去玩吗</div>
+                <div class="daohang">一直在家玩手机，会掉头发</div>
+                <div class="daohang">所以，少玩电子产品</div>
+            </div>
+        </div>
+        <!-- 主区域 -->
+        <div class="flex1 flex column">
+            <!-- 头部栏 -->
+            <div style="height: 60px;z-index: 1;" class="baise yinying">
+                <h1>世界树你好</h1>
+            </div>
+            <!-- 内容区 -->
+            <div style="overflow: auto;" class="flex1 flex">
+                <!-- 左区 -->
+                <div style="flex: 3" class="flex-column ma8">
+                    <!-- 数据区 -->
+                    <div class="flex">
+                        <!-- 数据块 -->
+                        <div style="height: 100px" class="flex1 baise mgr8 yinying">
+                        我头发要要没了,nk
+                        </div>
+                        <div style="height: 100px" class="flex1 baise mgr8 yinying"></div>
+                        <div style="height: 100px" class="flex1 baise mgr8 yinying"></div>
+                        <div style="height: 100px" class="flex1 baise yinying"></div>
+                    </div>
+                    <!-- 列表区 -->
+                    <div class="flex column">
+                        <!-- 列表项 -->
+                        <div style="height: 160px;" class="baise mgt8 yinying"></div>
+                        <div style="height: 160px;" class="baise mgt8 yinying"></div>
+                        <div style="height: 160px;" class="baise mgt8 yinying"></div>
+                        <div style="height: 160px;" class="baise mgt8 yinying"></div>
+                        <div style="height: 160px;" class="baise mgt8 yinying"></div>
+                    </div>
+                </div>
+                <!-- 右区 -->
+                <div style="flex: 1" class="flex-column mgr8 mgt8">
+                    <!-- 提示区 -->
+                    <div style="height: 150px;" class="baise yinying"></div>
+                    <!-- 消息区 -->
+                    <div style="height: 450px;" class="baise mgt8 yinying"></div>
+                </div>
+            </div>
+        </div>
+    </body>
+</body>
+</html>
